@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EEG | Timeline</title>
+  <link rel="icon" type="image/png" href="img/misaHub.png">
+  <link rel="stylesheet" href="https://rawcdn.githack.com/SochavaAG/example-mycode/master/_common/css/reset.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" />
+  <!-- <link rel="stylesheet" href="../css/header_footer.css" /> -->
+  
+  <style>
+    .scrolled {
+      background: #7c577ccb;
+    }
+  </style>
+  <script async
+  src="https://api.countapi.xyz/hit/google.com/2dfb4a61-db75-437e-8719-8adc888aa322?callback=websiteVisits"></script>
+<!-- visitors -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+
+<!-- <div id="particles-js"></div> -->
+
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="css/flexslider.css" rel="stylesheet">
+<link href="css/temp2.css" rel="stylesheet">
+<link href="css/scrollToTop.css" rel="stylesheet">
+
+  <!--Link to footer.css-->
+	<link href="css/footer.css" rel="stylesheet">
+	<link href="css/Homenavbar.css" rel="stylesheet">
+
+	<!--  Fontawesome icons -->
+	<script src="https://kit.fontawesome.com/e9cf5a296c.js" crossorigin="anonymous"></script>
+
+	<link href = "css/logo.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/timeline.css" />
+
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <nk href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rlink href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <liel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&family=Cinzel:wght@400;500&family=EB+Garamond&family=Lato&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  
+</head>
+
+<body class="tm-gray-bg main-bg">
+
+
+	<div class="scroll-up-btn">
+        <i class="fa fa-angle-up"></i>
+    </div>
+
+  	<!-- Header -->
+	<!-- #35365d -->
+  	<!-- <div class="tm-header1" style= "background-color: black";>
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
+					<a class="tm-site-name"><img src = "img/logo.png" width="200px" height="200px" style = "margin-top: -7.5rem;"></a>	
+  				</div>
+  			</div>
+  		</div>
+  	</div> -->
+
+	<div class="tm-header1" style="background-color: black" ;>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
+					<a href="index-boxes.html" class="tm-site-name"><img src="img/misaHub.png" width="120px" height="55px" style="margin-top: -0.5rem;"></a>
+
+				</div>
+	
+				<div class="col-lg-6 col-md-8 col-sm-9">
+					<div class="mobile-menu-icon">
+						<div class="mobile-menu-icon-wrap">
+							<span class="stick stick-1"></span>
+							<span class="stick stick-2"></span>
+							<span class="stick stick-3"></span>
+						</div>
+					</div>
+	
+          <nav class="tm-nav">
+            <ul>
+              <li><a class="upper_links" href="https://sites.google.com/view/misahub/about-us?authuser=0">About Us</a>
+              </li>
+              <li><a class="upper_links" href="https://scholar.google.com/citations?user=mvDYiX0AAAAJ&hl=en">Publications</a>
+              </li>
+              <li><a class="upper_links" href="https://sites.google.com/view/misahub/achievements">Achievements</a></li>
+              <li><a class="upper_links" href="t&c.html">T&C</a></li>
+              <li><a class="upper_links" href="https://sites.google.com/view/misahub/blog-posts"><img
+                    src="img/blog_icon-4-removebg-preview.png" width="30px" height="28px" style="margin-top:-9px"></a></li>
+              <li><a class="upper_links" href="https://linktr.ee/Misa_hub"><img src="img/email-icon-white-png-11.jpg" width="30px"
+                    height="30px" style="margin-top:-10px"></a></li>
+              <!-- <li><a class="upper_links" href="https://linktr.ee/Misa_hub"></a></li> -->
+              <!-- <li><a id="one" href="tours.html" class="active">Contact Us</a></li> -->
+              <!-- <li><a class="upper_links" href="publications.html">Publications</a></li> -->
+              <!-- <li><a href="favourites.html" class="active"><i class="fa fa-heart "></i></a></li> -->
+            </ul>
+          </nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <div class="ag-timeline-block">
+    <div class="ag-timeline_title-box">
+      <div class="ag-timeline_tagline">JOURNEY SO FAR</div>
+      <p class="scrolldown">Scroll down</p>
+      <p><i class="fa-solid fa-angle-down dir"></i></p>
+    </div>
+    <section class="ag-section">
+      <div class="ag-format-container">
+        <div class="js-timeline ag-timeline">
+          <div class="js-timeline_line ag-timeline_line">
+            <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+          </div>
+
+          <div class="ag-timeline_list">
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <!-- <div class="ag-timeline-card_point">1</div> -->
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <!-- <div class="ag-timeline-card_meta">2023</div> -->
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+
+                        src="../assets/Timeline/TT.timeline.jpeg"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info"> -->
+                    <!-- <div class="ag-timeline-card_title"></div> -->
+                    <!-- <div class="ag-timeline-card_desc" style="line-height: 30px;">
+                      <b>One-dimensional atrous conv-net based architecture for automatic diagnosis of epilepsy using EEG signals and its
+                      brain-computer interface applications
+                      </b>
+                      <br />
+                      Team Members:
+                      <a href="https://scholar.google.com/citations?user=mbjj4WsAAAAJ&hl=en">Palak Handa,</a>
+                      <a href="https://sites.google.com/view/misahub/">Muskan Gupta,</a>
+                      <a href="https://sites.google.com/view/misahub/">Esha Gupta,</a>
+                      <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel</a>
+                      
+                    </div> -->
+                  <!-- </div> -->
+                </div>
+                <!-- <div class="ag-timeline-card_arrow"></div> -->
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">March 2023</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">1</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+
+                        src="../assets/Timeline/TT.timeline.jpeg"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title"></div>
+                    <div class="ag-timeline-card_desc" style="line-height: 30px;">
+                      <b>Conference Paper: Inception-v3 Based Automatic Seizure Detection Using Rhythmicity Spectrograms</b>
+                      <br />
+                      Team Members:
+                      <a href="https://sites.google.com/view/misahub/">Esha Gupta,</a>
+                      <a href="https://sites.google.com/view/misahub/">Muskan Gupta,</a>
+                      <a href="https://sites.google.com/view/misahub/">Rishita Anand Sachdeva,</a>
+                      <a href="https://scholar.google.com/citations?user=mbjj4WsAAAAJ&hl=en">Palak Handa,</a>
+                      <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel</a>
+                      <br />
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">2</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">January 2023</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title"></div>
+                    <div class="ag-timeline-card_desc" style="line-height: 30px;">
+                      <b>Patent: A system and a method to detect peri-ictal and non-seizure EEG events using generated metadata
+                      </b>
+                      <br />
+                      Team Members:
+                      <a href="https://scholar.google.com/citations?user=mbjj4WsAAAAJ&hl=en">Palak Handa,</a>
+                      <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel,</a>
+                      <a href="https://www.igdtuw.ac.in/AboutUs.php?id=13">Dr. Amita Dev</a>
+                      
+                      <br />
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+          <div class="js-timeline_item ag-timeline_item">
+            <div class="ag-timeline-card_box">
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">June 2022</div>
+              </div>
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">3</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <!--<div class="ag-timeline-card_img-box">
+                    <img
+                      src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-8.png"
+                      class="ag-timeline-card_img"
+                      width="640"
+                      height="360"
+                      alt=""
+                    />
+                  </div>-->
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title"></div>
+                  <div class="ag-timeline-card_desc">
+                    <b>Journal Paper: Peri-ictal and non-seizure EEG event detection using generated metadata
+                    </b>
+                    <br />
+                    Team Members:
+                    <a href="https://scholar.google.com/citations?user=mbjj4WsAAAAJ&hl=en">Palak Handa,</a>
+                    <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel</a>
+                    <br>
+                    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12929" style="font-style: italic">Link to view</a>
+                    <br />
+                    <!-- <a href="https://zenodo.org/record/6055011#.Ygkg9N9BzIX" style="font-style: italic">Link to view</a> -->
+                    <!-- <div class="tag">
+                      Meet the team 
+                      <ul class="submenu">
+                        <li>Riya</li>
+                        <li>Khyati</li>
+                        <li>Yashika</li>
+                      </ul>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item">
+            <div class="ag-timeline-card_box">
+              
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">4</div>
+              </div>
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">February 2022</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <!--<div class="ag-timeline-card_img-box">
+                    <img
+                      src="../assets/Timeline/Tripsor.timeline.jpeg"
+                      class="ag-timeline-card_img"
+                      width="640"
+                      height="360"
+                      alt=""
+                    />
+                </div>-->
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title"></div>
+                  <div class="ag-timeline-card_desc">
+                    <b>Dataset: Meta-EEG of Siena Scalp EEG Database v1.0.0.0</b>
+                    <br />
+                    Team Members:
+                    <a href="https://sites.google.com/view/misahub/">Muskan Gupta,</a>
+                    <a href="https://sites.google.com/view/misahub/">Rishita Anand Sachdeva,</a>
+                    <a href="https://sites.google.com/view/misahub/">Esha Gupta,</a>
+                    <a href="https://scholar.google.com/citations?user=mbjj4WsAAAAJ&hl=en">Palak Handa,</a>
+                    <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel</a>
+                    <br>
+                    <a href="https://zenodo.org/record/6061290#.YgkhDd9BzIW" style="font-style: italic">Link to view</a>
+                    <!-- Validated By: 
+                    <a href="">Dr. Deepak Gunjan, </a>
+                    <a href="">Dr. S. J. Mahapatra</a>
+                    <br>
+                    <a href="https://link.springer.com/article/10.1007/s00500-021-06546-y" style="font-style: italic">Link to view</a> -->
+                    <!-- <div class="tag">
+                      Meet the team 
+                      <ul class="submenu">
+                        <li>Riya</li>
+                        <li>Khyati</li>
+                        <li>Yashika</li>
+                      </ul>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item">
+            <div class="ag-timeline-card_box">
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">February 2022</div>
+              </div>
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">5</div>
+              </div>
+              
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <!--<div class="ag-timeline-card_img-box">
+                    <img
+                      src="../assets/Timeline/Cp.timeline.JPG"
+                      class="ag-timeline-card_img"
+                      width="640"
+                      height="360"
+                      alt=""
+                    />
+                  </div>-->
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title"></div>
+                  <div class="ag-timeline-card_desc">
+                    <b>Dataset: Meta-EEG of CHB-MIT Scalp EEG Database v1.0.0.0
+                    </b>
+                    <br />
+                    Team Members:
+                    <a href="https://sites.google.com/view/misahub/">Esha Gupta,</a>
+                    <a href="https://sites.google.com/view/misahub/">Muskan Gupta,</a>
+                    <a href="https://sites.google.com/view/misahub/">Rishita Anand Sachdeva,</a>
+                    <a href="https://scholar.google.com/citations?user=mbjj4WsAAAAJ&hl=en">Palak Handa,</a>
+                    <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel</a>
+                    <br />
+                    <a href="https://zenodo.org/record/6062372#.YkaNRChBzIU" style="font-style: italic">Link to view</a>
+                    <!-- <div class="tag">
+                      Meet the team 
+                      <ul class="submenu">
+                        <li>Riya</li>
+                        <li>Khyati</li>
+                        <li>Yashika</li>
+                      </ul>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item">
+            <div class="ag-timeline-card_box">
+              
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">6</div>
+              </div>
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">February 2022</div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <!--<div class="ag-timeline-card_img-box">
+                    <img
+                      src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-8.png"
+                      class="ag-timeline-card_img"
+                      width="640"
+                      height="360"
+                      alt=""
+                    />
+                  </div>-->
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title"></div>
+                  <div class="ag-timeline-card_desc">
+                    <b>Dataset: Dataset of rhythmicity spectrogram based images of seizure and non-seizure EEG signals
+                    </b>
+                    <br />
+                    Team Members:
+                    <a href="https://sites.google.com/view/misahub/">Rishita Anand Sachdeva,</a>
+                    <a href="https://sites.google.com/view/misahub/">Esha Gupta,</a>
+                    <a href="https://sites.google.com/view/misahub/">Muskan Gupta,</a>
+                    <a href="https://scholar.google.com/citations?user=mbjj4WsAAAAJ&hl=en">Palak Handa,</a>
+                    <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel</a>
+                    <br />
+                    <a href="https://zenodo.org/record/6055011#.Ygkg9N9BzIX" style="font-style: italic">Link to view</a>
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">October 2021</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">7</div>
+                </div>
+                
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-8.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                        alt=""
+                      />
+                    </div>-->
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title"></div>
+                    <div class="ag-timeline-card_desc">
+                    <b>Conference Paper: Epileptic Seizure Detection Using Rhythmicity Spectrogram and Cross-Patient Test Set
+                    </b>
+                    <br />
+                    Team Members:
+                    <a href="https://scholar.google.com/citations?user=mbjj4WsAAAAJ&hl=en">Palak Handa,</a>
+                    <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel</a>
+                    <br>
+                    <a href="https://ieeexplore.ieee.org/document/9566078" style="font-style: italic">Link to view</a>
+                      <!-- <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">8</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">August 2021</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="../assets/Timeline/CB.timeline.JPG"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                        alt=""
+                      />
+                    </div>-->
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title"></div>
+                    <div class="ag-timeline-card_desc">
+                      <b>Review: Open and free EEG datasets for epilepsy diagnosis
+                      </b>
+                      <br />
+                      Team Members:
+                      <a href="https://scholar.google.com/citations?user=mbjj4WsAAAAJ&hl=en">Palak Handa,</a>
+                      <a href="https://sites.google.com/view/misahub/">Dr. Monika Mathur,</a>
+                      <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel</a>
+                      <br>
+                      <a href="https://arxiv.org/abs/2108.01030" style="font-style: italic">Link to view</a>
+                      <!-- <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">November 2019</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">9</div>
+                </div>
+               
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="../assets/Timeline/CB.timeline.JPG"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                        alt=""
+                      />
+                    </div>-->
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title"></div>
+                    <div class="ag-timeline-card_desc">
+                      <b>Review: An insight into automatic detection of epilepsy using EEG signals</b>
+                      <br />
+                      Team Members:
+                      <a href="https://scholar.google.com/citations?user=mbjj4WsAAAAJ&hl=en">Palak Handa,</a>
+                      <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel</a>
+                      <br>
+                      <!-- <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <!-- <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">11</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">November 2019</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title"></div>
+                    <div class="ag-timeline-card_desc">
+                      <b>Review: An insight into automatic detection of epilepsy using EEG signals (AIST 2019) </b>
+                      <br />
+                      Team Members: 
+                      <a href="https://sites.google.com/view/misahub/">Palak Handa,</a>
+                      <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel</a>
+                      <br>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div> -->
+
+          
+
+
+            <!-- <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">7</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-7.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                        alt=""
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">
+                      
+                    </div>
+                    <div class="ag-timeline-card_desc">
+                      <b>Automatic intestinal content classification using transfer learning architectures</b>
+                      <br />
+                      Team Members:
+                      <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel,</a>
+                      <a href="">Palak Handa,</a>
+                      <a href="">S. Indu</a>
+                      <br />
+                      <a href="https://ieeexplore.ieee.org/abstract/document/9865727" style="font-style: italic">Link to view</a> -->
+                      <!-- <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div> -->
+                    <!-- </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta"></div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">8</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-6.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                        alt=""
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title"></div>
+                    <div class="ag-timeline-card_desc">
+                      <b>Dataset: WCEbleedGen: A wireless capsule endoscopy dataset containing bleeding and non-bleeding frames</b>
+                      <br />
+                      Team Members:
+                      <a href="https://scholar.google.com/citations?hl=en&user=gDpJuRwAAAAJ">Dr. Nidhi Goel,</a>
+                      <a href="">Palak Handa,</a>
+                      <a href="">Harshita Mangotra,</a>
+                      <a href="">Jyoti Dhatarwal</a>
+                      <br />
+                      <a href="https://zenodo.org/record/7548320#.ZAsnHexBzAC" style="font-style: italic">Link to view</a> -->
+                      <!-- <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div> -->
+                    <!-- </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">9</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">19th Sept,2022</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-5.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                        alt=""
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">19th Sept,2022</div>
+                    <div class="ag-timeline-card_desc">
+                      <b>MECH CHARADES</b>
+                      <br />
+                      Venue: Seminar Hall, IGDTUW
+                      <br />
+                      Time: 12 noon
+                      <br />
+                      <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box"> -->
+                  <!-- <div class="ag-timeline-card_meta">19th Sept,2022</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">10</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-4.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                        alt=""
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">19th Sept,2022</div>
+                    <div class="ag-timeline-card_desc">
+                      <b>CHARADES-RELAY</b>
+                      <br />
+                      Venue: Knowledge Park, IGDTUW
+                      <br />
+                      Time: 1:00 pm
+                      <br />
+                      <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">11</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">19th Sept,2022</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-3.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                        alt=""
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">19th Sept,2022</div>
+                    <div class="ag-timeline-card_desc">
+                      <b>BOLLYTECH MIME</b>
+                      <br />
+                      Venue: Near Basketball Court, IGDTUW
+                      <br />
+                      Time: 1:00 pm
+                      <br />
+                      <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">
+                    20th Sept,22 - 22nd Sept,22
+                  </div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">12</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-2.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">
+                      20th Sept,22 - 22nd Sept,22
+                    </div>
+                    <div class="ag-timeline-card_desc">
+                      <b>STARTER PACK</b>
+                      <br />
+                      Venue: Online
+                      <br />
+                      Time: Two-day long competition
+                      <br />
+                      <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">13</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">30th Sept,2022</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-1.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">30th Sept,2022</div>
+                    <div class="ag-timeline-card_desc">
+                      <b>TESSERACT</b>
+                      <br />
+                      Venue: Auditotium, IGDTUW
+                      <br />
+                      Time: 10 am - 12:30pm
+                      <br />
+                      <div class="tag">
+                        Meet the team
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">30th Sept,2022</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">14</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-2.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">30th Sept,2022</div>
+                    <div class="ag-timeline-card_desc">
+                      <b>BLACKHOLE VOYAGE</b>
+                      <br />
+                      Venue: Seminar Hall, IGDTUW
+                      <br />
+                      Time: 11 am - 1 pm
+                      <br />
+                      <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">15</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">30th Sept,2022</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-1.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">30th Sept,2022</div>
+                    <div class="ag-timeline-card_desc">
+                      <b>IDEATHON</b>
+                      <br />
+                      Venue: Conference Room, IGDTUW
+                      <br />
+                      Time: 11 am - 1:00pm
+                      <br />
+                      <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">30th Sept,2022</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">16</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-2.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">30th Sept,2022</div>
+                    <div class="ag-timeline-card_desc">
+                      <b>DOOR TO MULTIVERSE</b>
+                      <br />
+                      Venue: Near Nescafe, IGDTUW
+                      <br />
+                      Time: 1 pm - 4 pm
+                      <br />
+                      <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">17</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">30th Sept,2022</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-1.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">30th Sept,2022</div>
+                    <div class="ag-timeline-card_desc">
+                      <b>ROBOIGNITORS</b>
+                      <br />
+                      Venue: Basketball Court, IGDTUW
+                      <br />
+                      Time: 1 pm onwards
+                      <br />
+                      <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">30th Sept,2022</div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">18</div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-2.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">30th Sept,2022</div>
+                    <div class="ag-timeline-card_desc">
+                      <b>RELAY TO MILKYWAY</b>
+                      <br />
+                      Venue: Parking lot, IGDTUW
+                      <br />
+                      Time: 1 pm - 3 pm
+                      <br />
+                      <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+
+            <div class="js-timeline_item ag-timeline_item">
+              <div class="ag-timeline-card_box">
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point">19</div>
+                </div>
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta">30th Sept,2022</div>
+                </div> -->
+              <!-- </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner"> -->
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-1.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <!-- <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title">30th Sept,2022</div>
+                    <div class="ag-timeline-card_desc">
+                      <b>THE FUTURES CONTRACT</b>
+                      <br />
+                      Venue: Parking lot, IGDTUW
+                      <br />
+                      Time: 1 pm - 5:30 pm
+                      <br />
+                      <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div> -->
+
+            <div class="js-timeline_item ag-timeline_item" style="display: block; opacity: 0;"> 
+              <div class="ag-timeline-card_box">
+                <div class="ag-timeline-card_meta-box">
+                  <div class="ag-timeline-card_meta"></div>
+                </div>
+                <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                  <div class="ag-timeline-card_point"></div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_item">
+                <div class="ag-timeline-card_inner">
+                  <!--<div class="ag-timeline-card_img-box">
+                      <img
+                        src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-2.png"
+                        class="ag-timeline-card_img"
+                        width="640"
+                        height="360"
+                      />
+                    </div>-->
+                  <div class="ag-timeline-card_info">
+                    <div class="ag-timeline-card_title"></div>
+                    <div class="ag-timeline-card_desc">
+                      <b></b>
+                      <br />
+                      
+                      <br />
+                     
+                      <br />
+                      <!-- <div class="tag">
+                        Meet the team 
+                        <ul class="submenu">
+                          <li>Riya</li>
+                          <li>Khyati</li>
+                          <li>Yashika</li>
+                        </ul>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+                <div class="ag-timeline-card_arrow"></div>
+              </div>
+            </div>
+          </div>
+          <div class="js-timeline_item ag-timeline_item" style="display: block; opacity: 0;">
+            <div class="ag-timeline-card_box">
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta"></div>
+              </div>
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point"></div>
+              </div>
+            </div>
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <!--<div class="ag-timeline-card_img-box">
+                    <img
+                      src="https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/img-2.png"
+                      class="ag-timeline-card_img"
+                      width="640"
+                      height="360"
+                    />
+                  </div>-->
+                <div class="ag-timeline-card_info">
+                  <div class="ag-timeline-card_title"></div>
+                  <div class="ag-timeline-card_desc">
+                    <b></b>
+                    <br />
+                    
+                    <br />
+                   
+                    <br />
+                    <!-- <div class="tag">
+                      Meet the team 
+                      <ul class="submenu">
+                        <li>Riya</li>
+                        <li>Khyati</li>
+                        <li>Yashika</li>
+                      </ul>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+
+<footer style="margin-bottom: 50px">
+  &copy;
+  2023. All Rights Reserved
+</footer>
+
+
+ 
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      		<!-- jQuery -->
+<script type="text/javascript" src="js/scrollToTop.js"></script>					<!-- Scroll To Top -->
+  <script type="text/javascript" src="js/moment.js"></script>							<!-- moment.js -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
+<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>	<!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+   <script type="text/javascript" src="js/templatemo-script.js"></script>      		<!-- Templatemo Script -->
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/timeline.js"></script>
+</body>
+
+</html>
